@@ -95,7 +95,7 @@
             <div class="free-member-container" id="freeMemberContainer">
                 <p>تعداد ممبرهای مورد نظر:</p>
                 <select id="memberCount">
-                    <option value="oooo">۲۷۰۰ ممبر ایرانی رایگان</option>
+                    <option value="3000">۳۰۰۰ ممبر ایرانی رایگان</option>
                 </select>
                 <p>لطفاً آیدی اکانت یا آیدی کانال/گروه خود را وارد کنید:</p>
                 <input type="text" id="accountId" placeholder="آیدی اکانت یا آیدی کانال/گروه">
@@ -108,7 +108,7 @@
         // JavaScript برای نمایش و پنهان کردن کادر انتخاب ممبر
         document.getElementById('freeMemberBtn').addEventListener('click', function() {
             const memberContainer = document.getElementById('freeMemberContainer');
-            memberContainer.style.display = memberContainer.style.display === 'none' || memberContainer.style.display === '' ? '' : '';
+            memberContainer.style.display = memberContainer.style.display === 'none' || memberContainer.style.display === '' ? 'مجاز' : '';
         });
 
         // JavaScript برای عملکرد دکمه ارسال
